@@ -7,5 +7,5 @@ def home():
     return render_template('home.html')
 
 @app.route('/workout')
-def hello(name):
-    return render_template('home.html')
+def workout():
+    return render_template('workout.html')
