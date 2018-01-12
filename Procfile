@@ -1,1 +1,1 @@
-web: gunicorn workout-muscles:app
+web: gunicorn run:app
